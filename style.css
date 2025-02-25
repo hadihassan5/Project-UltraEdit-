@@ -1,0 +1,398 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 160px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+
+}
+
+.content ul li {
+    list-style: none;
+
+}
+
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.head-1 {
+    padding: 10px;
+    font-size: 47px;
+}
+
+.head-1 img {
+    cursor: pointer;
+}
+
+.head-2 {
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.head-3 {
+    margin-top: -7px;
+    font-size: 25px;
+}
+
+.download {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    width: 20vw;
+    font-weight: 700;
+    padding: 14px;
+    text-transform: uppercase;
+    background-color: #00b6d1;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: 30px auto;
+    cursor: pointer;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.download a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.cap {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.down {
+    /* margin: 0px 0px; */
+    margin: 0px 140px;
+    font-size: 24px;
+
+}
+
+.img-1 {
+    justify-content: center;
+    align-items: center;
+    margin: -18px;
+    margin-right: 7px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.grid {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+    margin-top: 24px;
+
+}
+
+.item {
+    background-color: #f9f9f9;
+
+    margin: 16px;
+    /* width: 20vw; */
+    font-size: 9px;
+    padding: 16px;
+    /* padding: 16px 25px; */
+    max-width: 302px;
+    border-radius: 5px;
+
+}
+
+.item button {
+    background-color: #5cb85c;
+    padding: 7px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+.item button a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.item p {
+    font-size: 8px;
+    line-height: 2;
+}
+
+#ver2 {
+    padding-bottom: 45px;
+}
+
+.version {
+    font-weight: bolder;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.trans {
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
+.fot {
+    width: 98.7vw;
+    box-sizing: border-box;
+    background-color: #222;
+    height: 120vh;
+    margin-top: 50px;
+    margin: auto;
+}
+
+.join {
+    width: 32vw;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto; */
+    text-align: center;
+    color: white;
+    margin-left: 145px;
+    padding-top: 181px;
+    font-size: 16px;
+
+}
+
+#joinID {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.mail-box {
+    width: 25vw;
+    height: 34vh;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    margin-right: 220px;
+    margin-top: -125px;
+    text-align: center;
+    padding: 15px;
+}
+
+.mail {
+    color: #00b6d1;
+    font-size: 24px;
+}
+
+.mail-2 {
+    margin-top: 26px;
+    margin-bottom: 25px;
+}
+
+/* .entermail {
+    width: 20vw;
+    height: 38px;
+    margin: auto;
+    border: 2px solid rgb(144, 144, 144);
+    margin-bottom: 10px;
+
+} */
+.entermail {
+    width: 18vw;
+    margin: auto;
+    height: 40px;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.entermail input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+.mail-box button {
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    width: 20vw;
+    height: 38px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 7px -1px #00b6d1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.description {
+    color: white;
+    text-align: justify;
+    margin-left: 150px;
+    line-height: 2.7;
+}
+
+.description p a {
+    text-decoration: none;
+    color: #00b6d1;
+}
+
+#pf2 {
+    line-height: 0;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 100px;
+    gap: 10px;
+}
+
+footer ul li {
+    list-style: none;
+    padding-right: 70px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-wrap: row wrap;
+    /* height: 50vh; */
+    line-height: 1.7;
+
+}
+
+.firstfoot {
+    width: 401px;
+    font-size: 13px;
+
+}
+
+.ffheading {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.firstfoot li a {
+    /* list-style: none; */
+    text-decoration: none;
+    color: #222;
+
+}
+
+.foot-mail {
+    font-size: 12px;
+    width: 14vw;
+    margin-right: 20px;
+}
+
+.entermail-2 {
+    width: 11vw;
+    height: 36px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.entermail-2 input {
+    /* width: 100%;
+    height: 100%; */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+
+.foot-mail button {
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    width: 12.7vw;
+    border-radius: 5px;
+    box-shadow: 1px 2px 7px -1px #00b6d1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 7px 0px;
+}
+
+.foot-span {
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.last {
+    display: block;
+
+}
+
+.last img {
+    width: 160px;
+}
+
+.last-2 {
+    font-size: 12px;
+}
+
+.accounts {
+    display: flex;
+    justify-content: right;
+    margin-top: -50px;
+    margin-right: 90px;
+    gap: 15px;
+}
+
+.accounts img {
+    width: 26px;
+}
